@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AA3B0319827E19006A6FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA3B0219827E19006A6FD1 /* Foundation.framework */; };
+		84AA3B0519827E19006A6FD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA3B0419827E19006A6FD1 /* CoreGraphics.framework */; };
+		84AA3B0719827E19006A6FD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA3B0619827E19006A6FD1 /* UIKit.framework */; };
+		84AA3B3319827F0B006A6FD1 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AA3B3119827F0B006A6FD1 /* Icon-76.png */; };
+		84AA3B3419827F0B006A6FD1 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AA3B3219827F0B006A6FD1 /* Icon-76@2x.png */; };
+		84AA3B3619828025006A6FD1 /* run in Resources */ = {isa = PBXBuildFile; fileRef = 84AA3B3519828025006A6FD1 /* run */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84AA3AFF19827E19006A6FD1 /* Refresh Icons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refresh Icons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA3B0219827E19006A6FD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AA3B0419827E19006A6FD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AA3B0619827E19006A6FD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AA3B0A19827E19006A6FD1 /* Refresh Icons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Refresh Icons-Info.plist"; sourceTree = "<group>"; };
+		84AA3B1019827E19006A6FD1 /* Refresh Icons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refresh Icons-Prefix.pch"; sourceTree = "<group>"; };
+		84AA3B3119827F0B006A6FD1 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		84AA3B3219827F0B006A6FD1 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		84AA3B3519828025006A6FD1 /* run */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AA3AFC19827E19006A6FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA3B0519827E19006A6FD1 /* CoreGraphics.framework in Frameworks */,
+				84AA3B0719827E19006A6FD1 /* UIKit.framework in Frameworks */,
+				84AA3B0319827E19006A6FD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AA3AF619827E19006A6FD1 = {
+			isa = PBXGroup;
+			children = (
+				84AA3B0819827E19006A6FD1 /* Refresh Icons */,
+				84AA3B0119827E19006A6FD1 /* Frameworks */,
+				84AA3B0019827E19006A6FD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AA3B0019827E19006A6FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AA3AFF19827E19006A6FD1 /* Refresh Icons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AA3B0119827E19006A6FD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AA3B0219827E19006A6FD1 /* Foundation.framework */,
+				84AA3B0419827E19006A6FD1 /* CoreGraphics.framework */,
+				84AA3B0619827E19006A6FD1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AA3B0819827E19006A6FD1 /* Refresh Icons */ = {
+			isa = PBXGroup;
+			children = (
+				84AA3B0919827E19006A6FD1 /* Supporting Files */,
+			);
+			path = "Refresh Icons";
+			sourceTree = "<group>";
+		};
+		84AA3B0919827E19006A6FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AA3B3119827F0B006A6FD1 /* Icon-76.png */,
+				84AA3B3219827F0B006A6FD1 /* Icon-76@2x.png */,
+				84AA3B0A19827E19006A6FD1 /* Refresh Icons-Info.plist */,
+				84AA3B1019827E19006A6FD1 /* Refresh Icons-Prefix.pch */,
+				84AA3B3519828025006A6FD1 /* run */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AA3AFE19827E19006A6FD1 /* Refresh Icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA3B2B19827E19006A6FD1 /* Build configuration list for PBXNativeTarget "Refresh Icons" */;
+			buildPhases = (
+				84AA3AFB19827E19006A6FD1 /* Sources */,
+				84AA3AFC19827E19006A6FD1 /* Frameworks */,
+				84AA3AFD19827E19006A6FD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refresh Icons";
+			productName = "Refresh Icons";
+			productReference = 84AA3AFF19827E19006A6FD1 /* Refresh Icons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AA3AF719827E19006A6FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bitst0rm;
+			};
+			buildConfigurationList = 84AA3AFA19827E19006A6FD1 /* Build configuration list for PBXProject "Refresh Icons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84AA3AF619827E19006A6FD1;
+			productRefGroup = 84AA3B0019827E19006A6FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AA3AFE19827E19006A6FD1 /* Refresh Icons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AA3AFD19827E19006A6FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA3B3619828025006A6FD1 /* run in Resources */,
+				84AA3B3419827F0B006A6FD1 /* Icon-76@2x.png in Resources */,
+				84AA3B3319827F0B006A6FD1 /* Icon-76.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AA3AFB19827E19006A6FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84AA3B2919827E19006A6FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AA3B2A19827E19006A6FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AA3B2C19827E19006A6FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Icons/Refresh Icons-Prefix.pch";
+				INFOPLIST_FILE = "Refresh Icons/Refresh Icons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84AA3B2D19827E19006A6FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Icons/Refresh Icons-Prefix.pch";
+				INFOPLIST_FILE = "Refresh Icons/Refresh Icons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AA3AFA19827E19006A6FD1 /* Build configuration list for PBXProject "Refresh Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA3B2919827E19006A6FD1 /* Debug */,
+				84AA3B2A19827E19006A6FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA3B2B19827E19006A6FD1 /* Build configuration list for PBXNativeTarget "Refresh Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA3B2C19827E19006A6FD1 /* Debug */,
+				84AA3B2D19827E19006A6FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AA3AF719827E19006A6FD1 /* Project object */;
+}

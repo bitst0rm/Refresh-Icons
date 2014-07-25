@@ -1,0 +1,17 @@
+#!/bin/sh
+
+declare -a cydia
+cydia=($CYDIA)
+
+if [[ ${CYDIA+@} ]]; then
+	echo "";
+else
+	if [ $(dpkg-query -W -f='${Status}' uikittools 2>/dev/null | grep -c "ok installed") -eq 0 ]; then
+		echo "";
+		echo "MISSING DEPENDENCIES.";
+		echo 'PLEASE INSTALL "UIKit Tools" !';
+		echo "";
+	fi
+fi
+
+exit 0

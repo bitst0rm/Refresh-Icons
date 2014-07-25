@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#  run.sh
+#  Refresh Icons
+#
+#  Created by bitst0rm on 25.07.14.
+#  Copyright (c) 2014 bitst0rm. All rights reserved.
+
+if [[ $(whoami) == "mobile" ]]; then
+uicache 1>/dev/null 2>&1
+else
+su mobile -c uicache 1>/dev/null 2>&1
+fi
+
+sleep 1
+
+echo "Reloading SpringBoard..."
+killall SpringBoard

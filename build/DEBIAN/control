@@ -1,0 +1,17 @@
+Package: com.bitst0rm.refreshicons
+Name: Refresh Icons
+Priority: standard
+Section: Utilities
+Depends: uikittools
+Pre-Depends: firmware (>= 5.0), uikittools
+Version: 1.0
+Architecture: iphoneos-arm
+Description: fix missing app icons
+ Compatible with iOS 5, 6 and 7+
+ 
+ Refresh Icons will fix the missing or corrupted white/blank app icons. This issue happens when you install apps on a jailbroken iOS Device. It is not clear if it is due to the jailbreak or due to a problematic or incompatible jailbreak tweak.
+ 
+ There are no options or settings to configure. Simple tap on the Refresh Icons icon to go.
+Maintainer: bitst0rm
+Author: bitst0rm
+Homepage: https://github.com/bitst0rm/Refresh-Icons
